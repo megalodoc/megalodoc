@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the default view 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+      style={
+        Object {
+          "background": "lightGray",
+        }
+      }
+    >
+      <br />
+      <div
+        className="media"
+      >
+        <img
+          alt="React logo"
+          className="d-flex mr-3"
+          src="test-file-stub"
+          style={
+            Object {
+              "background": "gray",
+              "height": "64px",
+              "width": "64px",
+            }
+          }
+        />
+        <div
+          className="media-body"
+        >
+          <h1
+            className="h5"
+          >
+            Megalodoc
+          </h1>
+          <em>
+            That's a bad fish
+          </em>
+          <p>
+            Swagger Version: 
+            2.0
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      Main content here
+    </div>
+  </div>
+</div>
+`;
