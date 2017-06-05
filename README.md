@@ -1,4 +1,4 @@
-# Megalodoc
+# Megalodoc [![Build Status](https://travis-ci.org/megalodoc/megalodoc.svg?branch=master)](https://travis-ci.org/megalodoc/megalodoc)
 TODO: project description
 
 ## Development
