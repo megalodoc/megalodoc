@@ -2,15 +2,15 @@ import React, { Component } from 'react'
 import logo from './logo.svg'
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <div className="container-fluid">
         <div className="row">
-          <div className="col-4" style={{ background: "lightGray" }}>
+          <div className="col-4" style={{ background: 'lightGray' }}>
             <br/>
             <div className="media">
               <img
-                style={{ width: '64px', height: '64px', background: "gray" }}
+                style={{ width: '64px', height: '64px', background: 'gray' }}
                 className="d-flex mr-3"
                 alt="React logo"
                 src={logo}/>
