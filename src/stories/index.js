@@ -2,6 +2,7 @@ import React from 'react'
 import { storiesOf, action, linkTo } from '@kadira/storybook'
 import Button from './Button'
 import Welcome from './Welcome'
+import PathItem from '../PathItem'
 
 storiesOf('Welcome', module)
   .add('to Storybook', () => (
@@ -14,4 +15,9 @@ storiesOf('Button', module)
   ))
   .add('with some emoji', () => (
     <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>
+  ))
+
+storiesOf('PathItem', module)
+  .add('with empty pathItem object', () => (
+    <PathItem pathName='/pets' />
   ))

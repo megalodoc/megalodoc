@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the PathItem component 1`] = `
+<div>
+  <h2>
+    /pet
+  </h2>
+</div>
+`;
