@@ -1,10 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import Operation from './Operation'
+import PropTypes from 'prop-types'
 
 const PathItem = ({pathName, pathItem}) =>
   <div>
     <h2>{pathName}</h2>
-    {/* render Operations(s) */}
+    {
+      Object.keys(pathItem).map(oKey =>
+        pathItem[oKey]
+        ? <Operation key={oKey} verb={oKey} operation={pathItem[oKey]} />
+        : null
+      )
+    }
   </div>
 
 PathItem.propTypes = {
@@ -16,6 +23,6 @@ PathItem.propTypes = {
     delete: PropTypes.object,
     parameters: PropTypes.array
   }).isRequired
-};
+}
 
-export default PathItem;
+export default PathItem

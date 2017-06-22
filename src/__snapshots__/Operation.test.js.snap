@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Operation component 1`] = `
+<div>
+  <h3>
+    post
+  </h3>
+  <p>
+    Add a new pet to the store
+  </p>
+  <p>
+    
+  </p>
+</div>
+`;

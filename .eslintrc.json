@@ -6,10 +6,13 @@
          "jsx": true
       }
     },
-
+    "env": {
+      "jest": true
+    },
     "plugins": [
         "react",
         "standard",
         "promise"
-    ]
+    ],
+    "extends": "standard"
 }

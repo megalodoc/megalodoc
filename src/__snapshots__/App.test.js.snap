@@ -52,7 +52,296 @@ exports[`renders the default view 1`] = `
     <div
       className="col"
     >
-      Main content here
+      <div>
+        <h2>
+          /pet
+        </h2>
+        <div>
+          <h3>
+            post
+          </h3>
+          <p>
+            Add a new pet to the store
+          </p>
+          <p>
+            
+          </p>
+        </div>
+        <div>
+          <h3>
+            put
+          </h3>
+          <p>
+            Update an existing pet
+          </p>
+          <p>
+            
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          /pet/findByStatus
+        </h2>
+        <div>
+          <h3>
+            get
+          </h3>
+          <p>
+            Finds Pets by status
+          </p>
+          <p>
+            Multiple status values can be provided with comma separated strings
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          /pet/findByTags
+        </h2>
+        <div>
+          <h3>
+            get
+          </h3>
+          <p>
+            Finds Pets by tags
+          </p>
+          <p>
+            Muliple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing.
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          /pet/{petId}
+        </h2>
+        <div>
+          <h3>
+            get
+          </h3>
+          <p>
+            Find pet by ID
+          </p>
+          <p>
+            Returns a single pet
+          </p>
+        </div>
+        <div>
+          <h3>
+            post
+          </h3>
+          <p>
+            Updates a pet in the store with form data
+          </p>
+          <p>
+            
+          </p>
+        </div>
+        <div>
+          <h3>
+            delete
+          </h3>
+          <p>
+            Deletes a pet
+          </p>
+          <p>
+            
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          /pet/{petId}/uploadImage
+        </h2>
+        <div>
+          <h3>
+            post
+          </h3>
+          <p>
+            uploads an image
+          </p>
+          <p>
+            
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          /store/inventory
+        </h2>
+        <div>
+          <h3>
+            get
+          </h3>
+          <p>
+            Returns pet inventories by status
+          </p>
+          <p>
+            Returns a map of status codes to quantities
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          /store/order
+        </h2>
+        <div>
+          <h3>
+            post
+          </h3>
+          <p>
+            Place an order for a pet
+          </p>
+          <p>
+            
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          /store/order/{orderId}
+        </h2>
+        <div>
+          <h3>
+            get
+          </h3>
+          <p>
+            Find purchase order by ID
+          </p>
+          <p>
+            For valid response try integer IDs with value &gt;= 1 and &lt;= 10. Other values will generated exceptions
+          </p>
+        </div>
+        <div>
+          <h3>
+            delete
+          </h3>
+          <p>
+            Delete purchase order by ID
+          </p>
+          <p>
+            For valid response try integer IDs with positive integer value. Negative or non-integer values will generate API errors
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          /user
+        </h2>
+        <div>
+          <h3>
+            post
+          </h3>
+          <p>
+            Create user
+          </p>
+          <p>
+            This can only be done by the logged in user.
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          /user/createWithArray
+        </h2>
+        <div>
+          <h3>
+            post
+          </h3>
+          <p>
+            Creates list of users with given input array
+          </p>
+          <p>
+            
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          /user/createWithList
+        </h2>
+        <div>
+          <h3>
+            post
+          </h3>
+          <p>
+            Creates list of users with given input array
+          </p>
+          <p>
+            
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          /user/login
+        </h2>
+        <div>
+          <h3>
+            get
+          </h3>
+          <p>
+            Logs user into the system
+          </p>
+          <p>
+            
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          /user/logout
+        </h2>
+        <div>
+          <h3>
+            get
+          </h3>
+          <p>
+            Logs out current logged in user session
+          </p>
+          <p>
+            
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>
+          /user/{username}
+        </h2>
+        <div>
+          <h3>
+            get
+          </h3>
+          <p>
+            Get user by user name
+          </p>
+          <p>
+            
+          </p>
+        </div>
+        <div>
+          <h3>
+            put
+          </h3>
+          <p>
+            Updated user
+          </p>
+          <p>
+            This can only be done by the logged in user.
+          </p>
+        </div>
+        <div>
+          <h3>
+            delete
+          </h3>
+          <p>
+            Delete user
+          </p>
+          <p>
+            This can only be done by the logged in user.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
