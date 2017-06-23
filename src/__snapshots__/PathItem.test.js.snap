@@ -5,5 +5,27 @@ exports[`renders the PathItem component 1`] = `
   <h2>
     /pet
   </h2>
+  <div>
+    <h3>
+      post
+    </h3>
+    <p>
+      Add a new pet to the store
+    </p>
+    <p>
+      
+    </p>
+  </div>
+  <div>
+    <h3>
+      put
+    </h3>
+    <p>
+      Update an existing pet
+    </p>
+    <p>
+      
+    </p>
+  </div>
 </div>
 `;

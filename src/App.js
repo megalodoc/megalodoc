@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import logo from './logo.svg'
+import PathItem from './PathItem'
 
 class App extends Component {
   render () {
+    const paths = this.props.doc.paths
     return (
       <div className="container-fluid">
         <div className="row">
@@ -22,7 +24,11 @@ class App extends Component {
             </div>
           </div>
           <div className="col">
-            Main content here
+            {
+              Object.keys(paths).map(pathKey =>
+                <PathItem key={pathKey} pathName={pathKey} pathItem={paths[pathKey]} />
+              )
+            }
           </div>
         </div>
       </div>
